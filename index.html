@@ -3,245 +3,72 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="description" content="Guía para trabajadores en Colombia: despido sin justa causa, liquidación y pensión. Calculadoras orientativas y asesoría jurídica laboral con Yafeth Guette, abogado.">
+<meta name="description" content="Portafolio jurídico de Yafeth Guette, abogado: guías para trabajadores y empleadores en Colombia y asesoría en distintos ámbitos del derecho.">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Guía Laboral Yafeth Guette">
-<meta property="og:description" content="Guía para trabajadores en Colombia: despido sin justa causa, liquidación y pensión. Calculadoras orientativas y asesoría jurídica laboral con Yafeth Guette, abogado.">
+<meta property="og:title" content="Guía Jurídica Yafeth Guette">
+<meta property="og:description" content="Portafolio jurídico de Yafeth Guette, abogado: guías para trabajadores y empleadores en Colombia y asesoría en distintos ámbitos del derecho.">
 <meta property="og:locale" content="es_CO">
 <meta name="theme-color" content="#170c07">
 <link rel="icon" type="image/webp" href="logo.webp">
-<title>Guía Laboral Yafeth Guette</title>
+<title>Guía Jurídica Yafeth Guette</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Poppins:wght@400;500;600&display=swap">
-<style>
-:root{
-  --bg:#170c07; --bg-2:#1f1009; --card:#2a160c; --line:rgba(217,166,82,.28);
-  --gold:#d9a652; --gold-hi:#f4d38f; --ink:#f3e3bf; --muted:#c7b189; --btn-ink:#1f0f08;
-  --display:'Cormorant Garamond',Georgia,'Times New Roman',serif;
-  --body:'Poppins',system-ui,-apple-system,'Segoe UI',sans-serif;
-  color-scheme:dark;
-}
-*{box-sizing:border-box}
-body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.65;margin:0}
-.wrap{max-width:860px;margin:0 auto;padding-block:28px 64px;
-  padding-left:max(18px,env(safe-area-inset-left,0px));padding-right:max(18px,env(safe-area-inset-right,0px))}
-a{color:var(--gold-hi)}
-h1,h2,h3{font-family:var(--display);font-weight:700;line-height:1.1;margin:0;text-wrap:balance}
-h1{font-size:clamp(2.3rem,7.5vw,3.6rem);background:linear-gradient(180deg,#f7dc9a,#d9a652 70%,#b9822f);-webkit-background-clip:text;background-clip:text;color:transparent}
-h2{font-size:clamp(1.8rem,5vw,2.4rem);color:var(--gold-hi)}
-h3{font-size:1.4rem;color:var(--gold-hi)}
-p{margin:0 0 14px}
-.muted{color:var(--muted)}
-.small{font-size:.86rem}
-.label{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);font-weight:600}
-.top{display:flex;align-items:center;gap:14px;padding-bottom:22px;border-bottom:1px solid var(--line)}
-.top img{width:84px;height:auto;display:block}
-.top b{font-weight:600;letter-spacing:.04em}
-.top span{display:block;font-size:.8rem;color:var(--muted)}
-.hero{padding:44px 0 34px;display:grid;gap:18px}
-.hero p{max-width:600px;font-size:1.05rem;color:var(--ink)}
-.cta-row{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-top:6px}
-.btn{display:inline-block;background:linear-gradient(180deg,#fbe2a4,#e2b35f);color:var(--btn-ink);font:600 1rem var(--body);padding:14px 28px;border-radius:12px;text-decoration:none;border:0;cursor:pointer}
-.btn:hover{filter:brightness(1.06)}
-.btn.ghost{background:transparent;color:var(--gold-hi);border:1px solid var(--line)}
-.btn:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--gold-hi);outline-offset:2px}
-.jump{display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:8px;font-size:.9rem}
-.jump a{text-decoration:none;color:var(--muted);border-bottom:1px solid var(--line)}
-.jump a:hover{color:var(--gold-hi)}
-section{padding:46px 0 10px;border-top:1px solid var(--line);scroll-margin-top:12px}
-section>.label{display:block;margin-bottom:10px}
-section h2{margin-bottom:16px}
-ul.plain{margin:0 0 16px;padding-left:20px}
-ul.plain li{margin-bottom:6px}
-ul.plain li::marker{color:var(--gold)}
-.scroll{overflow-x:auto;margin:6px 0 18px}
-table{border-collapse:collapse;width:100%;min-width:0;font-size:.93rem}
-th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
-th{font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);font-weight:600}
-td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
-.note{border-left:3px solid var(--gold);background:var(--bg-2);padding:12px 16px;margin:6px 0 18px;font-size:.92rem;color:var(--ink)}
-.calc{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px;margin:22px 0}
-.calc h3{margin-bottom:4px}
-.calc .ex{display:inline-block;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--btn-ink);background:var(--gold);border-radius:99px;padding:2px 10px;margin-left:8px;vertical-align:middle;font-family:var(--body);font-weight:600}
-.calc .ex[hidden]{display:none}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px;margin:16px 0}
-.field{display:flex;flex-direction:column;gap:5px;min-width:0}
-.field label{font-size:.8rem;color:var(--muted)}
-input,select{font:400 1rem var(--body);color:var(--ink);background:var(--bg-2);border:1px solid var(--line);border-radius:10px;padding:11px 12px;width:100%;min-width:0}
-.out{border-top:1px solid var(--line);padding-top:14px}
-.out table{min-width:0}
-.total{display:flex;justify-content:space-between;gap:12px;align-items:baseline;margin-top:8px;font-weight:600}
-.total strong{font-family:var(--display);font-size:2rem;color:var(--gold-hi);font-variant-numeric:tabular-nums}
-.err{color:#ffb4a0}
-ol.steps{list-style:none;counter-reset:s;padding:0;margin:0 0 16px;display:grid;gap:12px}
-ol.steps li{counter-increment:s;display:grid;grid-template-columns:34px 1fr;gap:12px;align-items:start}
-ol.steps li::before{content:counter(s);width:34px;height:34px;border-radius:50%;border:1px solid var(--gold);color:var(--gold-hi);display:flex;align-items:center;justify-content:center;font-weight:600;font-size:.9rem}
-.docs{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:8px 22px;margin:0 0 16px;padding:0;list-style:none}
-.docs label{display:flex;gap:10px;align-items:flex-start;cursor:pointer}
-.docs input{width:18px;height:18px;margin-top:5px;flex:0 0 auto;accent-color:var(--gold)}
-.offer{margin-top:40px;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:28px 22px}
-.offer h2{margin-bottom:10px}
-.svc{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0 22px;padding:0;list-style:none}
-.svc li{border:1px solid var(--line);border-radius:99px;padding:6px 14px;font-size:.88rem}
-.phone{font-family:var(--display);font-size:2rem;font-weight:700;color:var(--gold-hi);letter-spacing:.02em;user-select:all}
-footer{margin-top:34px;padding-top:20px;border-top:1px solid var(--line)}
-@media (prefers-reduced-motion:no-preference){.btn{transition:filter .15s}}
-</style>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <div class="wrap">
   <div class="top">
-    <img alt="Logo de Yafeth Guette, abogado" src="logo.webp" width="84" height="66">
-    <div><b>Yafeth Guette · Abogado</b><span>Asesoría jurídica laboral</span></div>
+    <div class="brand"><img alt="Logo de Yafeth Guette, abogado" src="logo.webp" width="84" height="66">
+    <div><b>Yafeth Guette · Abogado</b><span>Asesoría jurídica</span></div></div>
+    <nav aria-label="Guías"><a href="index.html" aria-current="page">Inicio</a><a href="trabajadores.html">Trabajadores</a><a href="empleadores.html">Empleadores</a><a href="civil.html">Civil</a><a href="peticiones.html">Peticiones y tutelas</a><a href="transito.html">Tránsito</a></nav>
   </div>
 
   <div class="hero">
-    <span class="label">Guía para trabajadores</span>
-    <h1>Despido, liquidación y pensión: revisa tu caso con información clara</h1>
-    <p>Qué te corresponde, cómo se calcula y en qué plazos reclamar. Incluye dos calculadoras para comparar con lo que te pagaron.</p>
-    <div class="cta-row">
-      <a class="btn" href="https://wa.me/573058852628?text=Hola%2C%20quiero%20asesor%C3%ADa%20jur%C3%ADdica%20laboral" target="_blank" rel="noopener">Consulta ahora por WhatsApp</a>
-      <span class="muted small">305 885 2628</span>
-    </div>
-    <nav class="jump" aria-label="Secciones">
-      <a href="#despido">Despido sin justa causa</a>
-      <a href="#liquidacion">Liquidación</a>
-      <a href="#pension">Pensión</a>
-      <a href="#plazos">Plazos</a>
-      <a href="#ruta">Qué hacer</a>
-    </nav>
+    <span class="label">Portafolio jurídico</span>
+    <h1>Guía jurídica</h1>
+    <p class="intro">Bienvenido al portafolio de servicios. A continuación encuentras una guía para cada situación concreta.</p>
   </div>
 
-  <section id="despido">
-    <span class="label">Despido sin justa causa</span>
-    <h2>¿Te despidieron sin justa causa?</h2>
-    <p>Cuando el empleador termina el contrato sin que exista una causa que la ley permita, el trabajador tiene derecho a recibir, además de su liquidación, una <b>indemnización</b> (artículo 64 del Código Sustantivo del Trabajo).</p>
-    <h3>Cómo se calcula en contrato indefinido</h3>
-    <div class="scroll"><table>
-      <thead><tr><th>Salario</th><th class="num">Primer año</th><th class="num">Cada año adicional</th></tr></thead>
-      <tbody>
-        <tr><td>Menos de 10 salarios mínimos</td><td class="num">30 días</td><td class="num">20 días</td></tr>
-        <tr><td>10 salarios mínimos o más</td><td class="num">20 días</td><td class="num">15 días</td></tr>
-      </tbody></table></div>
-    <ul class="plain">
-      <li>Las fracciones de año se pagan de forma proporcional.</li>
-      <li>La base incluye todo lo que constituye salario: horas extras, recargos, comisiones y bonificaciones habituales.</li>
-      <li>En contrato a término fijo la indemnización se calcula con el tiempo que falte para terminar el plazo pactado.</li>
-    </ul>
-    <h3>Qué conviene revisar</h3>
-    <ul class="plain">
-      <li>La carta de terminación: si te la entregaron por escrito y qué motivo dice.</li>
-      <li>El tipo de contrato y la fecha exacta de ingreso.</li>
-      <li>Que la liquidación se haya pagado completa (siguiente sección).</li>
-    </ul>
-
-    <form class="calc" id="f-ind" autocomplete="off">
-      <h3>Calculadora de indemnización<span class="ex">Ejemplo</span></h3>
-      <p class="muted small">Contrato indefinido. Estimación orientativa. Ajusta los datos con los tuyos.</p>
-      <div class="grid">
-        <div class="field"><label for="i-sal">Salario mensual promedio (COP)</label><input id="i-sal" type="number" inputmode="numeric" min="0" step="1000" value="3000000"></div>
-        <div class="field"><label for="i-tope">Tu salario es</label><select id="i-tope"><option value="a" selected>Menos de 10 salarios mínimos</option><option value="b">10 salarios mínimos o más</option></select></div>
-        <div class="field"><label for="i-ing">Fecha de ingreso</label><input id="i-ing" type="date" value="2022-05-01"></div>
-        <div class="field"><label for="i-ret">Fecha de terminación</label><input id="i-ret" type="date" value="2026-10-31"></div>
-      </div>
-      <div class="out" id="o-ind" aria-live="polite"></div>
-    </form>
-  </section>
-
-  <section id="liquidacion">
-    <span class="label">Liquidación</span>
-    <h2>¿Te deben tu liquidación?</h2>
-    <p>La liquidación final reúne lo que el empleador te debe al terminar el contrato, sin importar el motivo. Debe pagarse al terminar la relación laboral.</p>
-    <h3>Qué incluye</h3>
-    <ul class="plain">
-      <li>Cesantías y sus intereses.</li>
-      <li>Prima de servicios del semestre en curso.</li>
-      <li>Vacaciones pendientes de disfrutar.</li>
-      <li>Salarios, horas extras, recargos y comisiones que aún se deban.</li>
-      <li>Aportes pendientes a salud, pensión y caja de compensación.</li>
-    </ul>
-    <h3>Fórmulas de referencia</h3>
-    <div class="scroll"><table>
-      <thead><tr><th>Concepto</th><th>Fórmula</th></tr></thead>
-      <tbody>
-        <tr><td>Cesantías</td><td>Salario mensual × días trabajados ÷ 360</td></tr>
-        <tr><td>Intereses de cesantías</td><td>Cesantías × días trabajados × 0,12 ÷ 360</td></tr>
-        <tr><td>Prima de servicios</td><td>Salario mensual × días del semestre ÷ 360</td></tr>
-        <tr><td>Vacaciones</td><td>Salario mensual básico × días trabajados ÷ 720</td></tr>
-      </tbody></table></div>
-    <p class="small muted">Para cesantías y prima, el salario base suma el auxilio de transporte cuando se recibe. Las vacaciones se calculan solo con el salario básico.</p>
-    <div class="note"><b>Si no te pagan a tiempo.</b> El artículo 65 del Código Sustantivo del Trabajo prevé una sanción moratoria equivalente al último salario diario por cada día de retardo. No es automática: depende de la conducta del empleador y la define un juez.</div>
-
-    <form class="calc" id="f-liq" autocomplete="off">
-      <h3>Calculadora de liquidación<span class="ex">Ejemplo</span></h3>
-      <p class="muted small">Supone que las cesantías de años anteriores ya fueron consignadas y que la prima del semestre anterior ya se pagó.</p>
-      <div class="grid">
-        <div class="field"><label for="l-sal">Salario mensual básico (COP)</label><input id="l-sal" type="number" inputmode="numeric" min="0" step="1000" value="3000000"></div>
-        <div class="field"><label for="l-aux">Auxilio de transporte mensual (COP, si lo recibes)</label><input id="l-aux" type="number" inputmode="numeric" min="0" step="1000" value="0"></div>
-        <div class="field"><label for="l-ing">Fecha de ingreso</label><input id="l-ing" type="date" value="2022-05-01"></div>
-        <div class="field"><label for="l-ret">Fecha de terminación</label><input id="l-ret" type="date" value="2026-10-31"></div>
-        <div class="field"><label for="l-vac">Vacaciones: cuenta desde</label><input id="l-vac" type="date" value="2025-11-01"></div>
-        <div class="field"><label for="l-pen">Días de salario sin pagar</label><input id="l-pen" type="number" inputmode="numeric" min="0" step="1" value="0"></div>
-      </div>
-      <div class="out" id="o-liq" aria-live="polite"></div>
-    </form>
-    <p class="small muted">No incluye horas extras, recargos, comisiones ni salario variable. Si tu salario tiene partes variables, el cálculo cambia.</p>
-  </section>
-
-  <section id="pension">
-    <span class="label">Pensión</span>
-    <h2>¿No sabes si te calcularon bien tu pensión?</h2>
-    <p>El monto y el derecho a pensionarte dependen de datos que puedes revisar tú mismo antes de aceptar un cálculo.</p>
-    <h3>Qué revisar</h3>
-    <ul class="plain">
-      <li><b>Historia laboral:</b> que estén todas las semanas que cotizaste, con cada empleador.</li>
-      <li><b>Salarios reportados:</b> el ingreso base de liquidación sale de ellos. Si se reportó menos de lo que ganabas, la mesada baja.</li>
-      <li><b>Tu régimen:</b> si estás en Colpensiones (prima media) o en un fondo privado de ahorro individual.</li>
-      <li><b>Edad y semanas</b> frente a lo que se exige hoy.</li>
-    </ul>
-    <h3>Requisitos del régimen actual</h3>
-    <div class="scroll"><table>
-      <thead><tr><th>Edad</th><th class="num">Semanas</th></tr></thead>
-      <tbody>
-        <tr><td>57 años mujeres · 62 años hombres</td><td class="num">1.300</td></tr>
-      </tbody></table></div>
-    <div class="note"><b>Reforma pensional (Ley 2381 de 2024).</b> Según reportes de prensa de agosto de 2026, la Corte Constitucional avaló la mayor parte de la ley y esta empezaría a regir el 1 de abril de 2027. Hasta entonces aplica el régimen anterior. Si estás cerca de pensionarte, conviene revisar cómo te afectaría. Información a noviembre de 2026.</div>
-  </section>
-
-  <section id="plazos">
-    <span class="label">Plazos</span>
-    <h2>No dejes pasar el tiempo</h2>
-    <p>Los derechos laborales prescriben en <b>tres años</b> contados desde que cada obligación se hace exigible (artículo 488 del Código Sustantivo del Trabajo y artículo 151 del Código Procesal del Trabajo).</p>
-    <ul class="plain">
-      <li>Un reclamo escrito del trabajador interrumpe la prescripción y la reinicia por un término igual, una sola vez.</li>
-      <li>Presentar la demanda también la interrumpe.</li>
-      <li>Cada derecho tiene su propia fecha de exigibilidad. Si dudas de cuánto tiempo tienes, consúltalo cuanto antes.</li>
-    </ul>
-  </section>
-
-  <section id="ruta">
-    <span class="label">Qué hacer</span>
-    <h2>Una ruta general para empezar</h2>
-    <ol class="steps">
-      <li><div><b>Reúne los documentos.</b> Con todo a la mano, cualquier revisión es más rápida.</div></li>
-      <li><div><b>Compara lo que te pagaron</b> con las calculadoras de esta página.</div></li>
-      <li><div><b>Reclama por escrito.</b> Pide el pago de lo que falte y guarda la constancia de entrega.</div></li>
-      <li><div><b>Acude al Ministerio del Trabajo.</b> Un inspector puede citar al empleador a una conciliación.</div></li>
-      <li><div><b>Pide asesoría jurídica</b> antes de firmar acuerdos o paz y salvos.</div></li>
-    </ol>
-    <h3>Documentos que conviene reunir</h3>
-    <ul class="docs">
-      <li><label><input type="checkbox"><span>Contrato de trabajo y sus prórrogas</span></label></li>
-      <li><label><input type="checkbox"><span>Carta de terminación o de despido</span></label></li>
-      <li><label><input type="checkbox"><span>Liquidación que te entregaron</span></label></li>
-      <li><label><input type="checkbox"><span>Desprendibles de pago de nómina</span></label></li>
-      <li><label><input type="checkbox"><span>Planilla o certificado de aportes a seguridad social</span></label></li>
-      <li><label><input type="checkbox"><span>Historia laboral de semanas cotizadas</span></label></li>
-    </ul>
-  </section>
+  <div class="doors">
+    <a class="door" href="trabajadores.html">
+      <span class="label">Soy trabajador</span>
+      <h2>Guía para trabajadores</h2>
+      <p>¿Te despidieron o no estás seguro de tu liquidación?</p>
+      <ul><li>Despido y liquidación</li><li>Pensión</li><li>Plazos para reclamar</li></ul>
+      <span class="go">Descubre qué revisar →</span>
+    </a>
+    <a class="door" href="empleadores.html">
+      <span class="label">Soy empleador</span>
+      <h2>Guía para empleadores</h2>
+      <p>¿Tu empresa está en regla con sus trabajadores?</p>
+      <ul><li>Contratos y reforma 2025</li><li>Reglamento y comité de convivencia</li><li>Terminaciones</li></ul>
+      <span class="go">Descubre qué revisar →</span>
+    </a>
+    <a class="door" href="civil.html">
+      <span class="label">Asuntos civiles</span>
+      <h2>Guía civil</h2>
+      <p>¿Cobros, familia, herencias o contratos?</p>
+      <ul><li>Procesos ejecutivos</li><li>Familia: alimentos, custodia y divorcio</li><li>Sucesiones</li><li>Contratos y arrendamientos</li></ul>
+      <span class="go">Descubre qué revisar →</span>
+    </a>
+    <a class="door" href="peticiones.html">
+      <span class="label">Derechos fundamentales</span>
+      <h2>Peticiones y tutelas</h2>
+      <p>¿Te ignoran, te niegan o no te cumplen?</p>
+      <ul><li>Derecho de petición</li><li>Acción de tutela</li><li>Cumplimiento de fallos</li></ul>
+      <span class="go">Descubre qué revisar →</span>
+    </a>
+    <a class="door" href="transito.html">
+      <span class="label">Tránsito</span>
+      <h2>Guía de tránsito</h2>
+      <p>¿Multas, fotomultas o accidentes?</p>
+      <ul><li>Comparendos y fotomultas</li><li>Inmovilización y licencia</li><li>Accidentes de tránsito</li></ul>
+      <span class="go">Descubre qué revisar →</span>
+    </a>
+  </div>
 
   <div class="offer" id="contacto">
-    <span class="label">Asesoría jurídica laboral</span>
-    <h2>¿Necesitas asesoría o acompañamiento en un asunto jurídico laboral?</h2>
+    <span class="label">Asesoría jurídica</span>
+    <h2>¿Necesitas asesoría o acompañamiento en un asunto jurídico?</h2>
     <p>Revisamos tu caso y te acompañamos en cada paso.</p>
     <ul class="svc">
       <li>Prestaciones y seguridad social</li>
@@ -249,93 +76,20 @@ footer{margin-top:34px;padding-top:20px;border-top:1px solid var(--line)}
       <li>Defensa ante despidos injustificados</li>
       <li>Liquidaciones y pensiones</li>
       <li>Revisión y redacción de contratos</li>
+      <li>Procesos ejecutivos y cobro de obligaciones</li>
+      <li>Asuntos de familia</li>
     </ul>
     <div class="phone" id="tel">305 885 2628</div>
     <div class="cta-row">
-      <a class="btn" href="https://wa.me/573058852628?text=Hola%2C%20quiero%20asesor%C3%ADa%20jur%C3%ADdica%20laboral" target="_blank" rel="noopener">Consulta ahora</a>
+      <a class="btn" href="https://wa.me/573058852628?text=Hola%2C%20quiero%20asesor%C3%ADa%20jur%C3%ADdica" target="_blank" rel="noopener">Consulta ahora</a>
       <button class="btn ghost" type="button" id="copy">Copiar número</button>
       <span class="muted small" id="copy-msg" aria-live="polite"></span>
     </div>
   </div>
-
   <footer class="small muted">
-    <p>Esta guía es informativa y no reemplaza la asesoría jurídica sobre tu caso concreto. Las calculadoras dan estimaciones orientativas: los valores reales dependen de tu contrato, tus pagos y la normativa vigente. Información actualizada a noviembre de 2026.</p>
-    <p>Referencias: Código Sustantivo del Trabajo (arts. 64, 65 y 488), Código Procesal del Trabajo y de la Seguridad Social (art. 151), Ley 2381 de 2024.</p>
+    <p>Contenido informativo que no reemplaza la asesoría jurídica sobre tu caso concreto. Cada situación depende de los hechos, los documentos y la normativa vigente. Información actualizada a noviembre de 2026.</p>
   </footer>
 </div>
-
-<script>
-(function(){
-  var cop=new Intl.NumberFormat('es-CO',{style:'currency',currency:'COP',maximumFractionDigits:0});
-  var fmt=function(n){return cop.format(Math.round(n))};
-  var $=function(id){return document.getElementById(id)};
-  function pd(s){if(!s)return null;var p=s.split('-').map(Number);return new Date(p[0],p[1]-1,p[2])}
-  function lastFeb(d){return d.getMonth()===1&&new Date(d.getFullYear(),2,0).getDate()===d.getDate()}
-  function d360(a,b){
-    var d1=Math.min(a.getDate(),30),d2=Math.min(b.getDate(),30);
-    if(lastFeb(a))d1=30; if(lastFeb(b))d2=30;
-    return (b.getFullYear()-a.getFullYear())*360+(b.getMonth()-a.getMonth())*30+(d2-d1)+1;
-  }
-  function num(id){var v=parseFloat($(id).value);return isFinite(v)&&v>0?v:0}
-  function row(l,v){return '<tr><td>'+l+'</td><td class="num">'+v+'</td></tr>'}
-
-  function calcInd(){
-    var o=$('o-ind'),ing=pd($('i-ing').value),ret=pd($('i-ret').value),sal=num('i-sal');
-    if(!ing||!ret||ret<ing){o.innerHTML='<p class="err">La fecha de terminación debe ser posterior a la de ingreso.</p>';return}
-    var dias=d360(ing,ret),anios=dias/360,b=$('i-tope').value==='a';
-    var primero=b?30:20,extra=b?20:15;
-    var dInd=anios<=1?primero:primero+(anios-1)*extra;
-    var valor=sal/30*dInd;
-    o.innerHTML='<div class="scroll"><table><tbody>'+
-      row('Tiempo de servicio',Math.floor(anios)+' años y '+Math.round((anios-Math.floor(anios))*12)+' meses aprox. ('+dias+' días)')+
-      row('Días de salario por indemnización',dInd.toFixed(1).replace('.',',')+' días')+
-      row('Valor del día de salario',fmt(sal/30))+
-      '</tbody></table></div><div class="total"><span>Indemnización estimada</span><strong>'+fmt(valor)+'</strong></div>';
-  }
-
-  function calcLiq(){
-    var o=$('o-liq'),ing=pd($('l-ing').value),ret=pd($('l-ret').value),vac=pd($('l-vac').value);
-    var sal=num('l-sal'),aux=num('l-aux'),pen=num('l-pen'),base=sal+aux;
-    if(!ing||!ret||ret<ing){o.innerHTML='<p class="err">La fecha de terminación debe ser posterior a la de ingreso.</p>';return}
-    var ini=new Date(ret.getFullYear(),0,1); if(ing>ini)ini=ing;
-    var dC=d360(ini,ret);
-    var ces=base*dC/360, inte=ces*dC*0.12/360;
-    var sem=new Date(ret.getFullYear(),ret.getMonth()<=5?0:6,1); if(ing>sem)sem=ing;
-    var dP=d360(sem,ret), prima=base*dP/360;
-    var vs=vac&&vac>ing?vac:ing, dV=vs>ret?0:d360(vs,ret), vacs=sal*dV/720;
-    var pend=sal/30*pen;
-    var total=ces+inte+prima+vacs+pend;
-    o.innerHTML='<div class="scroll"><table><thead><tr><th>Concepto</th><th class="num">Días</th><th class="num">Valor</th></tr></thead><tbody>'+
-      '<tr><td>Cesantías</td><td class="num">'+dC+'</td><td class="num">'+fmt(ces)+'</td></tr>'+
-      '<tr><td>Intereses de cesantías</td><td class="num">'+dC+'</td><td class="num">'+fmt(inte)+'</td></tr>'+
-      '<tr><td>Prima de servicios</td><td class="num">'+dP+'</td><td class="num">'+fmt(prima)+'</td></tr>'+
-      '<tr><td>Vacaciones</td><td class="num">'+dV+'</td><td class="num">'+fmt(vacs)+'</td></tr>'+
-      '<tr><td>Salario sin pagar</td><td class="num">'+pen+'</td><td class="num">'+fmt(pend)+'</td></tr>'+
-      '</tbody></table></div><div class="total"><span>Total estimado</span><strong>'+fmt(total)+'</strong></div>';
-  }
-
-  ['f-ind','f-liq'].forEach(function(id){
-    var f=$(id);
-    f.addEventListener('submit',function(e){e.preventDefault()});
-    f.addEventListener('input',function(){
-      var ex=f.querySelector('.ex'); if(ex)ex.hidden=true;
-      id==='f-ind'?calcInd():calcLiq();
-    });
-  });
-  calcInd();calcLiq();
-
-  $('copy').addEventListener('click',function(){
-    var msg=$('copy-msg');
-    function fallback(){
-      var r=document.createRange();r.selectNodeContents($('tel'));
-      var s=getSelection();s.removeAllRanges();s.addRange(r);
-      msg.textContent='Número seleccionado: cópialo.';
-    }
-    try{
-      navigator.clipboard.writeText('3058852628').then(function(){msg.textContent='Número copiado.'},fallback);
-    }catch(e){fallback()}
-  });
-})();
-</script>
+<script src="calc.js"></script>
 </body>
 </html>
