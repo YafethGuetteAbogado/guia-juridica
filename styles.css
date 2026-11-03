@@ -102,3 +102,5 @@ footer{margin-top:34px;padding-top:20px;border-top:1px solid var(--line)}
 .pkg{margin:26px 0 8px;padding:22px 20px;border:1px solid var(--gold);border-radius:14px;background:var(--bg-2)}
 .pkg h2{margin:6px 0 8px}
 .intro{font-size:1.05rem;max-width:62ch}
+.top a.brand{text-decoration:none;color:inherit}
+.top a.brand:hover b{color:var(--gold-hi)}
